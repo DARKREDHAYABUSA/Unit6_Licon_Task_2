@@ -9,7 +9,7 @@ int main()
 {
 //Bubble Sort ASC method per Task 2 of Unit 6 Assigment
 cout << "\nStart: " << cpuTime() << endl;
-//call the sort function
+//call the sort function.
 printArray(accountBalances, maxAccounts);
 sortArrDesc(accountBalances, maxAccounts);
 cout << "\nEnd: " << cpuTime() << endl;
